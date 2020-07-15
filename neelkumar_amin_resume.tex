@@ -1,0 +1,185 @@
+%-------------------------
+% Resume in Latex
+% Author : Neelkumar Amin
+% License : MIT
+% October 2nd, 2019
+%------------------------
+
+\pdfinfo
+{
+   /Author (Neelkumar V. Amin)
+   /Title  (Cybernetics Researcher)
+   /Subject (Resume - Curriculum Vitae)
+   /Keywords (Information; Nanotechnology; Linux; Network; Security; Robotics; Cybernetics)
+}
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://n33l4m1n.com/}{\Large Neelkumar V. Amin}} & Mobile: 321-458-0855 \\
+  \href{https://www.n33l4m1n.com/}{https://www.n33l4m1n.com/} & Email: \href{mailto: admin@n33l4m1n.com}{admin@n33l4m1n.com}\\
+
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Central Florida}{Orlando, FL}
+      {Bachelor of Science in Biotechnology}{August 2015}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Revature}{Tampa, FL}
+      {Software Developer}{July 2019 - Present}
+      \resumeItemListStart
+        \resumeItem{Software Development}
+          {Develop business applications using Java 8, JavaScript, HTML/CSS, TypeScript, Angular 8, Hibernate, PostgreSQL, Spring Framework, AWS and Git.}
+	\resumeItem{Projects}
+	  {Implement agile scrum with business analysts and devops to build full stack web applications using DAO and front controller design patterns, implementing code modularity and achieving loose coupling using SOLID principles. Enforce security measures by hashing stored passwords, prevent SQL injection attacks and filter CORs.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Charter Communications}{St. Petersburg, FL}
+      {Technical Support Representative}{March 2019 - June 2019}
+      \resumeItemListStart
+        \resumeItem{Internet Support}
+          {Utilized internal company tools and used root cause analysis to troubleshoot network problems in the customer operations internet support department.}
+        \resumeItem{Security}
+          {Safeguarded customer proprietary network information using security authentication measures.}
+      \resumeItemListEnd
+
+   \resumeSubheading
+      {iFixandRepair}{Viera, FL}
+      {Hardware Technician}{January 2016 - July 2016}
+      \resumeItemListStart
+        \resumeItem{Hardware Technician}
+          {Diagnosed and repaired iOS smartphones, fixed computer hardware malfunctions and provided end user software solutions. Optimized inventory supply and exceeded monthly sales goals by 11\% using curated customer service experiences.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Revature: Screen Force}
+      {Advanced an internal application which standardizes the assessment of potential Revature employees. A member of the tech screening team can record results of an interview as it happens and view an automatically scored summary after its conclusion. Administrators can manage training tracks and question pools, as well as viewing aggregated reports of past screening results. Worked with a microservices ecosystem technology stack in an agile scrum environment.}
+    \resumeSubItem{Aveture: Auto Insurance}
+      {Developed an auto insurance application based on a direct to consumer (D2C) channel strategy in an agile scrum environment using Angular frontend, Spring MVC for business layer and PostgreSQL as a backend database.}
+    \resumeSubItem{Expense Reimbursement System}
+      {Constructed and deployed a full stack application using a front controller design pattern on Apache Tomcat, persisted data to an AWS RDS instance and augmented UI with functionality through AJAX calls.}
+    \resumeSubItem{Banking Application}
+      {Utilized Java 8 to simulate banking transactions in the console with persistence using serialization for version one. Upgraded version two to use a DAO design pattern and Oracle SQL database using a JDBC connection.}
+    \resumeSubItem{www.n33l4m1n.com}
+      {A personal website deployed in the cloud using an Nginx server on a Debian operating system. Built to share information on biotechnology, informaion security and cybernetics research.}
+  \resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Programming Languages}
+      {Java 8, JavaScript, TypeScript, HTML/CSS, PL/SQL, Python}
+    \resumeSubItem{Information Technologies}
+      {Linux, AWS, Spring Boot, Hibernate, PostgreSQL, Angular, Git, SSH, DNS, DHCP}
+  \resumeSubHeadingListEnd
+
+%--------CERTIFICATIONS------------
+\section{Certifications}
+  \resumeSubHeadingListStart
+    \resumeSubItem{CompTIA A+}
+      {\href{https://www.certmetrics.com/comptia/public/verification.aspx?code=H8C4SSMETLEQQ1W3}{H8C4SSMETLEQQ1W3}} - {{July 2019}}
+    \resumeSubItem{Google IT Support Professional}
+      {\href{https://www.coursera.org/account/accomplishments/professional-cert/certificate/GD8VETQV8EZ5}{GD8VETQV8EZ5}} - {{October 2018}}
+    \resumeSubItem{CompTIA IT Fundamentals}
+      {\href{https://www.certmetrics.com/comptia/public/verification.aspx?code=ZQYSLPWPNG44QRG0}{ZQYSLPWPNG44QRG0}} - {{May 2018}}
+  \resumeSubHeadingListEnd
+
+%--------ORGANIZATIONS------------
+\section{Organizations}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Hack@UCF}
+      {Collegiate Cyber Defense Club at the University of Central Florida, Orlando, FL}
+  \resumeSubHeadingListEnd
+
+%---------BAGDES------------
+    %\includegraphics[scale=0.1]{CompTIA_A_Plus.png}
+    %\includegraphics[scale=0.055]{Google_IT_Support_Specialist.png}
+    %\includegraphics[scale=0.1]{CompTIA_IT_Fundamentals.png}
+%-------------------------------------------
+\end{document}
